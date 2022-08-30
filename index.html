@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="img/laus.png" alt="laus"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">inicio</a></li>
+                    <li><a href="#productos" onclick="seleccionar()">productos</a></li>
+                    <li><a href="#cursos" onclick="seleccionar()">cursos</a></li>
+                    <li><a href="#nosotros" onclick="seleccionar()">nosotros</a></li>
+                    <li><a href="#destacados" onclick="seleccionar()">destacados</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/inicio.png" alt="">
+            </div>
+            <h1>Laura Bakery</h1>
+            <h2>Pasteleria Moderna</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION nosotros -->
+    <section id="nosotros" class="nosotros">
+        <div class="contenido-seccion">
+            <div class="contenedor-img">
+                <img src="img/pasteleria.jpg" alt="">
+            </div>
+            <h2>nosotros</h2>
+            <p><span>Hola, soy Laura.</span> Somos una pastelería que se dedica a brindarle a sus clientes una experiencia única, con el objetivo de que al degustar nuestros productos se queden impactados con el sabor.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Creacion</strong>
+                            25-09-2018
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2555 232425
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            laubakery@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.laubakery.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            juramento 2500, Argentina
+                        </li>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>creamos la pasteleria en:</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>ARTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PRODUCTOS-->
+    <main class="container">
+        <div class="container-fluid">
+           <h2>Productos</h2>
+           <p>Nuestros productos están elaborados con la mejor materia prima y con pasteleros de calidad, cada preparación tiene su ingrediente y preparación con determinación para que cada producto que pruebes sea de excelencia. 
+         </p>
+         </div>
+            <div class="prod">
+          <section>
+                <img src="img/cheesecake.jpg"  alt="cheesecake" class="img-fluid">
+                <p>Nuestro cheesecake se destaca en tener un terciopelo en su interior, con una base de almendras y con frutos del bosque para darle su excelencia.</p>
+          </section>
+          <section>
+                <img src="img/lemon.png" alt="lemon" class="img-fluid">
+                <p>nuestros alfajores marplatense estan elaborados con una masa quebrada, con el mejor dulce de leche patagonico y con un baño de reporteria de sueños, te dejaran con ganas de mas!</p>
+          </section>
+           <section>
+               <img src="img/marquise.jpg"  alt="marquise" class="img-fluid">
+               <p>Nuestros alfajores sables se caracterizan por tener una masa que se deshace con tan solo tocarla y rellena del mejor dulce de leche patagonico.</p>
+              </div>
+          </section>
+      </main>
+
+    <!-- SECCION CURSOS-->
+    <section id="cursos" class="cursos">
+        <div class="contenido-seccion">
+            <h2>CURSOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/butter.png" alt="">
+                    <div class="overlay">
+                        <h3>CURSO DE BUTTERCREAM</h3>
+                        <p>En este curso online, vas a aprender todo lo necesario para que el buttercream te salga! No es necesario tener conocimientos previos.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/macarons.png" alt="">
+                    <div class="overlay">
+                        <h3>CURSO DE MACARONS</h3>
+                        <p>En este curso online, vas a aprender todo lo necesario para hacer macarons con la técnica de merengue suizo.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/bizcocho.png" alt="">
+                    <div class="overlay">
+                        <h3>CURSO DE BIZCOCHOS</h3>
+                        <p>En este curso vas a aprender a hacer el bizcochuelo ideal para tus tortas altas!</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DESTACADOS-->
+    <section class="destacados" id="destacados">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical destacados -->
+                <div class="col">
+                    <h3> destacados</h3>
+                    <div class="destacado">
+                        <span>JUEGOS</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>MUSICA</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>DEPORTE</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>VIAJAR</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>FOTOS</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional destacados -->
+                <div class="col">
+                    <h3>En lo que nos destacamos</h3>
+                    <div class="destacado">
+                        <span>Comunicación</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>Creatividad</span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destacado">
+                        <span>Proyectos </span>
+                        <div class="barra-destacado">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/UBICACION.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                juramento 2500, Capital Federal
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 232425 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: laubakery@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
